@@ -4,7 +4,7 @@ namespace App\DataFixtures\Currencies;
 
 use App\Entity\Currency;
 use Doctrine\Bundle\FixturesBundle\Fixture;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Doctrine\Bundle\FixturesBundle\FixtureGroupInterface;
 
 class CurrencyFixtures extends Fixture implements FixtureGroupInterface {
